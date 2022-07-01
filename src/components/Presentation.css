@@ -1,0 +1,19 @@
+.text-black {
+    background-color: #dfeed4;
+    display: flex;
+}
+.card-img {
+    height: 70vh;
+}
+.card-img-overlay {
+    font-size: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.card-title {
+    font-size: 30px;
+}
+.card-text {
+    margin-top: 2rem;
+}

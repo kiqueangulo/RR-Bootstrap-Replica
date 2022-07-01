@@ -1,9 +1,15 @@
+import TopBar from './components/TopBar';
+import Presentation from './components/Presentation';
+import StoreListing from './components/StoreListing';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Presentation />
+      <StoreListing />
     </div>
   );
 }
